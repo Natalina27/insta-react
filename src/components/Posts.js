@@ -5,8 +5,8 @@ export default class Posts extends Component {
     render() {
         return(
             <div className="left">
-                <Post  src="./cat.png" alt=" cat siam"/>
-                <Post src="./dog.png" alt="jack russel"/>
+                <Post  src=".src/components/cat.png" alt=" cat siam"/>
+                <Post src=".src/components/dog.png" alt="jack russel"/>
             </div>
         )
     }

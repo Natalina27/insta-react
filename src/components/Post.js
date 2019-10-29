@@ -10,7 +10,7 @@ export default class Post extends Component{
                 <User src={parrot}
                       alt="parrot"
                       name="Parrot Smith"
-                      min={true} />
+                      min />
                 <img src={this.props.src} alt={this.props.alt} />
                 <div className="post__name">
                     some account

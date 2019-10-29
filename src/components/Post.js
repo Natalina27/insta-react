@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 
+
 export default class Post extends Component{
     render() {
         return(
@@ -9,7 +10,7 @@ export default class Post extends Component{
                     some account
                 </div>
                 <div className="post__descr">
-                    Lorem Ipsum Fkfkhvlhlkhlgljvgjvfhggvtd gjkjgkjhgh jkgkjgvmghfghf
+                   My Profile. My name is .... I am.... etc etc etc
                 </div>
             </div>
         )

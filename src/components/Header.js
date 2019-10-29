@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-// 8.6K (gzipped: 3.4K)
 import logo from '../logo.svg';
 
 export default class Header extends Component {

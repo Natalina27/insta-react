@@ -3,5 +3,8 @@ export default  class instaService {
 
     }
 
-    getResource =
+    getResource = (url) => {
+        const res = fetch(url);
+
+    }
 }

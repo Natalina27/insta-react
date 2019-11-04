@@ -17,5 +17,6 @@ export default  class instaService {
 
     getAllPosts = async () => {
         const res = await this.getResource('/posts/');
+        return res;
     }
 }

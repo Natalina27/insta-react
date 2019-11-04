@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Post from "./Post";
+//import Post from "./Post";
 import cat from "../cat.png";
 import dog from "../dog.png";
 
@@ -13,5 +13,5 @@ export default class Posts extends Component {
             </div>
         )
     }
-
 }
+

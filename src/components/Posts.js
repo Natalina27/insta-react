@@ -13,7 +13,7 @@ export default class Posts extends Component {
     }
     updatePosts(){
         this.InstaService.getAllPosts()
-            .then()
+            .then(this.onPostLoaded)
             .catch();
     }
 

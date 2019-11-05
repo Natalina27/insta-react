@@ -12,7 +12,18 @@ export default class Posts extends Component {
         error: false
     }
     updatePosts(){
+        this.InstaService.getAllPosts()
+            .then()
+            .catch();
+    }
 
+    onPostLoaded = (posts) => {
+        //this.state.posts = posts; ochen rasprostranennaya oshibka
+        // nelzya tak menyat states. nado tak:
+        this.setState({
+            posts,
+            error: false
+        })
     }
     render() {
         return(

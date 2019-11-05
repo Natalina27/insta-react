@@ -11,6 +11,11 @@ export default class Posts extends Component {
         posts: [],
         error: false
     }
+
+    componentDidMount() {
+        this.updatePosts();
+    }
+
     updatePosts(){
         this.InstaService.getAllPosts()
             .then(this.onPostLoaded)

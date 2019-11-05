@@ -14,7 +14,7 @@ export default class Posts extends Component {
     updatePosts(){
         this.InstaService.getAllPosts()
             .then(this.onPostLoaded)
-            .catch();
+            .catch(this.onError);
     }
 
     onPostLoaded = (posts) => {

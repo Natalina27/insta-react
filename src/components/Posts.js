@@ -25,6 +25,13 @@ export default class Posts extends Component {
             error: false
         })
     }
+
+    onError = (err) => {
+        this.setState({
+            error: true
+        })
+    }
+
     render() {
         return(
             <div className="left">

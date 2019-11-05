@@ -11,6 +11,9 @@ export default class Posts extends Component {
         posts: [],
         error: false
     }
+    updatePosts(){
+
+    }
     render() {
         return(
             <div className="left">

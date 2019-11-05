@@ -31,7 +31,7 @@ export default class Posts extends Component {
         })
     }
 
-    onError = (err) => {
+    onError = () => {
         this.setState({
             error: true
         })
